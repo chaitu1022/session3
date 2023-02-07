@@ -1,0 +1,4 @@
+<input type="text"  *ngIf="hideandshow" (input)="onInputChange($event)" >
+<input type="text" (input)="onInputChange($event);valuechanged();" >    
+
+<!-- <button (click)="hideandshow = !hideandshow" >Hide and show</button> -->

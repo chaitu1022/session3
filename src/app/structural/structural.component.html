@@ -1,0 +1,23 @@
+<!-- https://angular.io/guide/built-in-directives -->
+
+<!-- <p *ngIf="isShow" >structural works!</p> -->
+<!-- <p [style.display]="isShow ? '': 'none'" >structural works!</p> -->
+
+<!-- <p *ngIf="employee.length >= 5" >Content Shown</p> -->
+
+<!-- <button (click)="onClick()" >Click</button> -->
+
+<!-- <p *ngIf="isShow; else elseBlock" >If Case is Showing</p>
+
+<ng-template #elseBlock>
+    <p>else case is showing</p>
+</ng-template>
+
+<button (click)="onClick()" >Click</button> -->
+
+
+<p *ngIf="isShow; else elsblock" >This is demo</p>
+
+<ng-template #elsblock>
+    <p>else case is showing</p>
+</ng-template>
